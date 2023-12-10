@@ -7,11 +7,15 @@ it is a dotnet project that interfaces the Camunda 8 Self-Managed workflow engin
 ## Flowy Solution
 This project deals with interfacing the features of [Camunda 8](https://camunda.com/) and completing them with additional features, this dotnet solution is made up of 3 projects:
 
-![Screenshot of a comment.](https://raw.githubusercontent.com/rmacellaro/flowy-solution/master/Documentation/swagger.jpg)
+![Swagger Documentation](https://raw.githubusercontent.com/rmacellaro/flowy-solution/master/Documentation/swagger.jpg)
 
 ### Flowy.Camunda
 
 This dotnet library works as a client and connects to [Camunda 8 self-managed](https://docs.camunda.io/docs/self-managed/about-self-managed/), for the local development phase it is necessary to use a local distribution of camunda, you can refer to this guide to run a doker instance with everything what is needed to start development.
+
+In order to interface with the Camunda bees it is necessary to register flowy as a client on the keycloak access manager.
+
+![Keycloak Documentation](https://raw.githubusercontent.com/rmacellaro/flowy-solution/master/Documentation/keycloak.jpg)
 
 ### Flowy.core
 
