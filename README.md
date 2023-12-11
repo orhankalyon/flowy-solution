@@ -1,5 +1,6 @@
 # Flowy
-<img src="https://raw.githubusercontent.com/rmacellaro/flowy-solution/master/Documentation/logo.jpg" width="100" height="100">
+
+<img src="https://raw.githubusercontent.com/rmacellaro/flowy-solution/master/Documentation/logo.png" width="128" height="128">
 
 it is a dotnet project that interfaces the Camunda 8 Self-Managed workflow engine, the system is made up of two projects:
 - a dotnet webapi api that exposes an api rest service which interfaces the camunda workflow engine (this project).
